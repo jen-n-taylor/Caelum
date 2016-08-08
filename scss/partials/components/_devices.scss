@@ -1,0 +1,55 @@
+
+// ------------ DEVICES ------------
+
+.devices-container {
+	padding: 95px 0 515px 0;
+	background-color: $background-a;
+	background-image: url("../images/homepage/devices.png");
+	background-repeat: no-repeat;
+	background-position: bottom -30px center;
+}
+
+// HEADER 
+
+.devices-title {
+	text-align: center;
+}
+
+.devices-title h2 {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+}
+
+.devices-title h2:before {
+	content:"";
+	position: absolute;
+	top: 22px;
+	left: -82px;
+	height: 5px;
+	width: 65px;
+	background-color: $primary-color;
+}
+
+.devices-title h2:after {
+	content:"";
+	position: absolute;
+	top: 22px;
+	right: -82px;
+	height: 5px;
+	width: 65px;
+	background-color: $primary-color;
+}
+
+// CONTENT 
+
+.subheader {
+	width: 560px;
+	color: $font-b;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 200%;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	text-align: center;
+}

@@ -1,0 +1,95 @@
+
+// ------------ WELCOME ------------
+
+.welcome-container {
+	padding: 65px 0 0 0;
+	background-color: $background-d;
+}
+
+// HEADER 
+
+.welcome-title {
+	text-align: center;
+}
+
+.welcome-wrapper h2 {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+}
+
+.welcome-wrapper h2:before {
+	content:"";
+	position: absolute;
+	top: 22px;
+	left: -80px;
+	height: 5px;
+	width: 65px;
+	background-color: $primary-color;
+}
+
+.welcome-wrapper h2:after {
+	content:"";
+	position: absolute;
+	top: 22px;
+	right: -80px;
+	height: 5px;
+	width: 65px;
+	background-color: $primary-color;
+}
+
+// CONTENT 
+
+.welcome-content {
+	padding: 45px 0 0 0;
+}
+
+.welcome-img {
+	float: left;
+	width: 50%;
+	padding: 0 50px 0 0;
+}
+
+.welcome-text {
+	float: left;
+	width: 50%;
+}
+
+.welcome-text {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 200%;
+	color: $font-a;
+}
+
+.welcome-text p {
+	width: 73%;
+	margin-bottom: 0;
+}
+
+.welcome-text h4 {
+	color: $secondary-color;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+// LIST 
+
+.welcome-text ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+.welcome-text ul i {
+	color: $primary-color;
+	padding: 0 10px 0 0;
+}
+
+.welcome-text ul li {
+	padding: 0 0 10px 0;
+	color: $font-b;
+}
+
+

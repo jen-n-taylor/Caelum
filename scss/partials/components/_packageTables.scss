@@ -1,0 +1,154 @@
+
+// ------------ PACKAGE TABLES ------------
+
+.packages-container {
+	background-color: $background-a;
+	padding: 100px 0;
+}
+
+tr:nth-child(odd) {
+	background-color: $font-d;
+}
+
+table.package-table {
+	float: left;
+	margin-right: 25px;
+	width: calc(25% - 19px);
+	text-align: center;
+	border: 3px solid $background-a;
+	border: collapse;
+	transition: border 0.75s;
+
+	&:hover {
+		border: 3px solid $primary-color;
+	}
+}
+
+table.package-table:last-of-type {
+	margin-right: 0;
+}
+
+// PACKAGE PRICE (TABLE HEAD)
+
+.package-table thead tr{
+	background-color: $primary-color;
+	color: $font-d;
+}
+
+tr.package-price td  {
+	white-space: pre-line;
+}
+
+.package-table td {
+	position: relative;
+	padding: 15px 0 30px 0;
+}
+
+td .package-icon {
+	font-weight: 300;
+	font-size: 16px;
+	position: absolute;
+	top: 30px;
+	left: 103px;
+}
+
+.package-cost {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 168%;
+}
+
+.package-price {
+	font-size: 9px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+// LABEL
+
+tbody.package-label {
+	line-height: 0;
+	padding: 15px;
+}
+
+td .label{
+	position: absolute;
+	top: -20px;
+	left: 68px;
+	display: inline-block;
+	color: $secondary-color;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: $font-d;
+	border-radius: 50px;
+	width: 140px;
+	padding: 10px;
+
+	-webkit-box-shadow: 0px 10px 20px 1px #f6f6f6;
+    box-shadow: 0px 10px 20px 1px #f6f6f6;
+}
+
+tr .package-label {
+	height: 60px;
+}
+
+// TABLE CONTENTS
+
+td.package-info {
+	font-size: 13px;
+	color: $font-a;
+	line-height: 0;
+}
+
+tr .package-info {
+	padding: 30px 0;
+}
+
+tr .pricing-grey {
+	padding: 20px 0;
+}
+
+// RATING & BUTTON
+
+tr td.rating {
+	white-space: pre-line;
+	color: $primary-color;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+tbody .rating {
+	padding: 25px 0;
+}
+
+.rating span {
+	margin: 4px;
+}
+
+//BUTTON 
+
+.rating button {
+	width: 140px;
+	background-color: $primary-color;
+	margin: 15px 0 15px 0;
+	transition: background-color 0.75s;
+
+	&:hover {
+		background-color: $secondary-color;
+	}
+}

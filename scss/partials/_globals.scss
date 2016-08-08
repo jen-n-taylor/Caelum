@@ -1,0 +1,23 @@
+
+// ------------ GLOBALS ------------
+
+// BODY STYLES ------------
+
+body {
+	font-family: $main-font;
+}
+
+// WRAPPER STYLES ---------
+
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+// VERTICAL ALIGN ---------
+
+.vert-align {
+	display: inline-block;
+	vertical-align: middle;
+}

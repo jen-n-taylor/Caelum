@@ -1,0 +1,51 @@
+
+// ------------ NAVIGATION ------------
+
+.nav-wrapper {
+	padding-top: 30px;
+}
+
+.caelum-logo {
+	float: left;
+	height: 100%;
+}
+
+.caelum-logo img {
+	float: left;
+	margin: 0;
+}
+
+.caelum-logo h1 {
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 0 12px;
+}
+
+.nav-bar {
+	float: right;
+}
+
+.nav-container ul {
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.nav-container li {
+	float: left;
+	padding: 10px 0 10px 50px;
+}
+.nav-container a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 12px;
+	color: $font-b;
+	transition: color 0.75s;
+
+	&:hover {
+		color: $primary-color;
+	}
+}

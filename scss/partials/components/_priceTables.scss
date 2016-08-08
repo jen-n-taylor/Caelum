@@ -1,0 +1,111 @@
+
+// ------------ PRICE TABLES ------------
+.pricing-container {
+	padding: 75px 0;
+}
+
+table.price-table {
+	float: left;
+	margin-right: 30px;
+	width: calc(33.33% - 19px);
+	text-align: center;
+	border: collapse;
+	border: 1px solid $font-e;
+}
+
+table.price-table:last-of-type {
+	margin-right: 0;
+}
+
+table.price-table tr {
+	border: 1px solid $font-e;
+	color: $font-a;
+}
+
+// TABLE HEAD
+
+table.price-table th {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 15px 0;
+}
+
+table.table-black th {
+	color: $secondary-color;
+}
+
+table.table-yellow th {
+	color: $primary-color;
+}
+
+// TABLE BODY (FIRST TD CELL - .PRICING)
+
+.price-table td {
+	position: relative;
+}
+
+tr.pricing td {
+	white-space: pre-line;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	padding: 8px 0 38px 0;
+	color: $font-c;
+}
+
+td .dollar-sign {
+	font-size: 16px;
+	position: absolute;
+	top: 30px;
+	left: 150px;
+}
+
+td .price {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 200%;
+}
+
+.pricing {
+	padding: 0 0 15px 0;
+}
+
+.table-black .pricing span {
+	color: $secondary-color;
+	padding-bottom: 15px;
+}
+
+.table-yellow .pricing span {
+	color: $primary-color;
+}
+
+// TABLE BODY (FOLLOWING CELLS .pricing-info)
+
+.pricing-info td {
+	padding: 16px 0;
+	font-size: 14px;
+	font-weight: 300;
+	color: $font-a;
+}
+
+// BUTTON 
+
+table button {
+	background-color: $secondary-color;
+	border: none;
+	color: $font-d;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 10px 30px;
+	border-radius: 50px;
+	transition: background-color .75s;  
+	
+	&:hover {
+		background-color: $primary-color;
+	}
+}

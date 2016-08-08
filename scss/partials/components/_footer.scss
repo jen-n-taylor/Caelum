@@ -1,0 +1,88 @@
+
+// ------------ FOOTER ------------
+
+.footer-container {
+	background-color: $background-b;
+}
+
+.footer-wrapper {
+	padding: 65px 0;
+}
+
+// COLUMN STYLING
+
+.footer-container h5 {
+	text-transform: uppercase;
+	color: $font-d;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 40px 0;
+}
+
+.footer-container p {
+	color: $font-c;
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+.footer-block {
+	float: left;
+	margin: 0;
+	margin: 0 36px 0 0;
+}
+
+.footer-block:last-of-type {
+	margin: 0;
+}
+
+// ABOUT US STYLING
+
+.about-us {
+	font-size: 8px;
+	width: 270px;
+}
+
+.about-us p {
+	line-height: 200%;
+}
+
+// TWITTER STYLING
+
+.font-bloc.twitter {
+	width: 270px;
+	margin: 0;
+}
+
+.twitter-icon {
+	float: left;
+	padding: 0 15px 0 0;
+	color: $primary-color;
+}
+
+.twitter-tweet {
+	float: left;
+	width: 242px;
+	line-height: 150%;
+	p {
+		margin: 0;
+	}
+}
+
+.twitter-tweet a {
+	text-decoration: none;
+	font-size: 14px;
+	color: $primary-color;
+	font-weight: 300;
+}
+
+.twitter-tweet-1 {
+	padding: 0 0 30px 0;
+}
+
+// COMMUNITY / HELP / FOLLOW US STYLING 
+
+.community, .help, .follow-us {
+	width: 170px;
+}
+

@@ -1,0 +1,96 @@
+
+// ------------ SKILLS ------------
+
+.skills-container {
+	padding: 5px 0;
+}
+
+.skills-summary, .skills-gallery {
+	height: 230px;
+}
+
+// SKILL SUMMARY --------
+
+.skills-summary {
+	float: left;
+	background: $primary-color;
+	width: 33%;
+	padding: 25px 0 0 60px;
+}
+
+.skills-summary h3{
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+
+.skills-summary p  {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 200%;
+	color: white;
+	padding-right: 80px;
+	margin-top: 0;
+}
+
+// SKILLS GALLERY --------
+
+.skills-gallery {
+	float: left;
+	width: 67%;
+	background-color: $background-a;
+	padding: 75px 0 0 0;
+	white-space: nowrap;
+}
+
+.flickity-slider {
+	margin-left: 25px;
+}
+
+.skills-gallery .carousel-cell{
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 25px 60px;
+	background-color: $secondary-color;
+	color: $font-d;
+	margin-left: 20px;
+	transition: all .50s;
+}
+
+.carousel-cell:hover {
+	background-color: $font-d;
+	color: $secondary-color;
+}
+
+// FLICKITY STYLING 
+
+.carousel {
+  height: 230px;
+}
+
+ // arrow button styling 
+.flickity-prev-next-button {
+  display: none;
+}
+
+// position dots in carousel 
+.flickity-page-dots {
+  background-color: $secondary-color;
+  width: 100px;
+  bottom: 0;
+  padding: 10px;
+}
+
+// circles 
+.flickity-page-dots .dot {
+  width: 8px;
+  height: 8px;
+  opacity: 1;
+  background: $font-a;
+}
+
+//fill-in selected dot 
+.flickity-page-dots .dot.is-selected {
+  background: $primary-color;
+}

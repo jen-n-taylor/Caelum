@@ -1,0 +1,53 @@
+
+// ------------ QUOTE ------------
+
+.quote-container {
+	padding: 85px 0 100px 0;
+	text-align: center;
+}
+
+// TITLE 
+
+.quote-container h3 {
+	text-transform: capitalize;
+	font-weight: 700;
+	margin: 0;
+}
+
+.quote-container blockquote {
+	width: 48%;
+	margin: 0 auto;
+	font-size: 14px;
+	color: $font-a;
+	font-weight: 600;
+	line-height: 200%;
+	padding: 20px 0 0 0;
+} 
+
+.quote-container cite {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 14px;
+	padding: 25px 0 0 0;
+}
+
+.quote-container p {
+	color: $font-c;
+	font-size: 12px;
+	margin: 0;
+}
+
+// SLIDER
+
+.quote-slider {
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	font-size: 10px;
+}
+
+.quote-slider i {
+	padding: 0 6px; 
+}
+

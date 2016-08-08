@@ -1,0 +1,43 @@
+
+// ------------ SERVICES ------------
+
+.services-wrapper {
+	padding: 85px 0;
+	clear: both;
+}
+
+// CONTENT
+
+.services-description {
+	float: left;
+	text-align: center;
+	margin: 20px;
+	width: calc(25% - 30px);
+}
+
+.services-description:first-child {
+	margin-left: 0;
+}
+
+.services-description:last-child {
+	margin-right: 0;
+}
+
+// IMAGE
+
+.services-description img {
+	height: 70px;
+}
+
+// TEXT
+
+.services-description h4 {
+	margin: 20px 0 10px 0;
+}
+
+.services-description p {
+	font-size: 14px;
+	color: $font-a;
+	line-height: 200%;
+	margin: 0
+}

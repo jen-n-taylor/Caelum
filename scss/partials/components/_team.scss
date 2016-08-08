@@ -1,0 +1,213 @@
+
+// ------------ TEAM ------------
+
+.team-container {
+	background-color: $secondary-color;
+}
+
+// TITLE
+
+.team-wrapper {
+	padding: 60px 0;
+}
+
+.team-title {
+	position: relative;
+	display: inline-block;
+}
+
+.team-title h2 {
+	color: $font-d;
+	margin: 0;
+}
+
+.team-title h2:after {
+	content:"";
+	position: absolute;
+	top: 22px;
+	right: -80px;
+	height: 5px;
+	width: 65px;
+	background-color: $primary-color;
+}
+
+// TEAM MEMBER IMAGES
+
+.team-member {
+	float: left;
+	width: 33.33%;	
+}
+
+.team-member img {
+	width: 100%;
+}
+
+// TEXT
+
+.team-member  {
+	color: $font-d;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.team-member figcaption h4 {
+	text-transform: uppercase;	
+}
+
+.team-member figcaption p {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+// SOCIAL ICONS
+
+
+.grid figure ul {
+	color: $secondary-color;
+	background-color: $font-d;
+	font-size: 14px;
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 15px 30px;
+}
+
+.grid ul li {
+	float: left;
+	padding: 0 30px 0 0;
+}
+
+.grid ul li:last-child {
+	padding: 0 0 0 0;
+}
+
+.grid ul li:hover {
+	color: $primary-color;
+}
+
+.grid {
+	position: relative;
+	background-color: $primary-color;
+}
+
+// TRANSITION STYLING!
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	text-align: center;
+}
+
+.grid figure img {
+	position: relative;
+	
+	
+	min-height: 100%;
+	max-width: 100%;
+}
+
+.grid figure figcaption {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.grid figure figcaption > a {
+	z-index: 1000;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h4,
+.grid figure p, .grid figure ul {
+	margin: 0;
+}
+
+.grid figure p {
+	padding: 0 0 40px 0;
+}
+
+figure.hover-effect figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 75%);
+	content: '';
+	opacity: 0;
+	transform: translate3d(0,50%,0);
+}
+
+figure.hover-effect h4 {
+	position: absolute;
+	top: 370px;
+	left: 0;
+	width: 100%;
+	transition: transform 0.5s;
+	transform: translate3d(0,-50%,0);
+}
+
+figure.hover-effect figcaption::before,
+figure.hover-effect p {
+	transition: opacity 0.5s, transform 0.5s;
+}
+
+figure.hover-effect p, {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+	transform: translate3d(0,10px,0);
+}
+
+figure.hover-effect figcaption::before,
+figure.hover-effect ul {
+	transition: opacity 0.5s, transform 0.5s;
+}
+
+figure.hover-effect ul {
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	left: 140px;
+	opacity: 0;
+	transform: translate3d(0,10px,0); 
+}
+
+figure.hover-effect:hover h4 {
+	transform: translate3d(0,-70px,0) translate3d(0,-40px,0);
+}
+
+figure.hover-effect:hover figcaption::before {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+figure.hover-effect:hover p {
+	opacity: 1;
+	transform: translate3d(0,-75px,0);
+}
+
+figure.hover-effect:hover ul {
+	opacity: 1;
+	transform: translate3d(0,-40px,0);
+}

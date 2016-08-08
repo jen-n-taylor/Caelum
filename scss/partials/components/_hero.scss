@@ -1,0 +1,50 @@
+
+// ------------ HERO ------------
+
+.hero-wrapper {
+	padding: 130px 0;
+}
+
+// TEXT ----------------------
+
+.hero-wrapper h3 {
+	padding: 55px 0 0 0;
+}
+
+.hero-wrapper p {
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: $font-c;
+}
+
+// SEARCH BAR -----------------
+
+.hero-search {
+	font-size: 14px;
+	color: $font-b;
+	border: 1px solid $font-e;
+	margin: 43px auto 0 auto;
+
+	text-align: left;
+	width: 600px;
+}
+
+.hero-search-input input, .hero-search label {
+	float: left;
+}
+
+.hero-search input {
+	padding: 20px 0 20px 30px;
+	width: 85%;
+	border: none;
+	font-weight: 300;
+}
+
+.hero-search-input i {
+	color: $primary-color;
+	font-weight: 600;
+	padding: 21px 0 0 20px;
+
+}

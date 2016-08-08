@@ -1,0 +1,36 @@
+
+// ------------ OUR MISSION ------------
+
+.ourMission-container {
+	background-color: $background-a;
+	background-image: url(../images/homepage/target.png);
+	background-repeat: no-repeat;
+	background-position: 650px 70px;
+	padding: 140px 0 160px 0;
+}
+
+.ourMission-wrapper h2 {
+	margin: 0 0 15px 0;
+	position: relative;
+}
+
+// TITLE
+
+.ourMission-wrapper h2:after {
+	content:"";
+	position: absolute;
+	top: 22px;
+	left: 265px;
+	height: 5px;
+	width: 65px;
+	background-color: $primary-color;
+}
+
+// CONTENT
+
+.ourMission-wrapper p {
+	max-width: 460px;
+	font-size: 14px;
+	line-height: 200%;
+	color: $font-c;
+}

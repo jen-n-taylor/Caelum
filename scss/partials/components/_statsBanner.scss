@@ -1,0 +1,50 @@
+
+// ------------ STATS BANNER ------------
+
+.stat-container {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+// NUMBER
+
+.stat-container p:nth-of-type(1) {
+	font-size: 60px;
+	font-weight: 800;
+	color: $font-c;
+	opacity: 0.2;
+	margin: 0;
+	padding: 45px 0 0 0;
+}
+
+// TEXT
+
+.stat-container p:nth-of-type(2) {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 5px 0 50px 0;
+}
+
+// BACKGROUND & TEXT COLOR
+
+.stat-container:nth-child(odd) {
+	background-color: $secondary-color;
+}
+
+.stat-container:nth-child(even) {
+	background-color: $primary-color;
+	p:nth-child(1) {
+		color: $secondary-color;
+		opacity: 0.2;
+	}
+
+	p:nth-child(2) {
+		color: black;
+		font-weight: 800;
+	}
+}

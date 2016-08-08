@@ -1,0 +1,84 @@
+
+// ------------ MANIFEST ------------
+
+// PARTIALS -------------------------
+
+// SETUP (Normalize, Border Box, Clearfix) 
+@import "partials/setup";
+
+// FONTS
+@import "partials/fonts";
+
+// COLORS
+@import "partials/colors";
+
+// MEDIA QUERIES
+@import "partials/mediaQueries";
+
+// GLOBALS
+@import "partials/globals";
+
+// HEADERS 
+@import "partials/headers";
+
+// COMPONENTS -----------------------
+
+// NAVIGATION (ALL PAGES)
+@import "partials/components/navigation";
+
+// HERO (MAIN PAGE)
+@import "partials/components/hero";
+
+// HEADER (ABOUT,PRICING)
+@import "partials/components/header";
+
+// SKILLS (MAIN PAGE)
+@import "partials/components/skills";
+
+// OUR MISSION (MAIN,ABOUT)
+@import "partials/components/ourMission";
+
+// SERVICES (MAIN PAGE)
+@import "partials/components/services";
+
+// POPULAR COURSES (MAIN PAGE)
+@import "partials/components/popularCourses";
+
+// STATS BANNER (MAIN, ABOUT)
+@import "partials/components/statsBanner";
+
+// WHY CHOOSE US (MAIN PAGE)
+@import "partials/components/whyChooseUs";
+
+// DEVICES (MAIN PAGE)
+@import "partials/components/devices";
+
+// NEWS (MAIN PAGE)
+@import "partials/components/news";
+
+// CONTACT (MAIN PAGE)
+@import "partials/components/contact";
+
+// WELCOME (ABOUT PAGE)
+@import "partials/components/welcome";
+
+// QUOTE (ABOUT PAGE)
+@import "partials/components/quote";
+
+// TEAM (ABOUT PAGE)
+@import "partials/components/team";
+
+// CTA (ABOUT PAGE)
+@import "partials/components/cta";
+
+// PRICE TABLES (PRICE PAGE)
+@import "partials/components/priceTables";
+
+// PACKAGE TABLES (PRICE PAGE)
+@import "partials/components/packageTables";
+
+// FOOTER (ALL PAGES)
+@import "partials/components/footer";
+
+// COPYRIGHT FOOTER (ALL PAGES)
+@import "partials/components/copyrightFooter";
